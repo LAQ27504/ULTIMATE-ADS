@@ -1,0 +1,39 @@
+//Ultimate pseduo for all the code:
+//Code part:
+int some_func_name(int some_parameter){
+    int declare_some_varibale = 1;
+    int variable_need_to_input;
+    scanf("%d", &variable_need_to_input);
+    printf("some text with variable %d", variable_need_to_input);
+    for (int i = 0; i < n; i ++){
+        declare_some_varibale ++;
+    }
+    while (variable_need_to_input < n){
+        break;
+    }
+    if (variable_need_to_input == n){
+        some_func_name(declare_some_varibale);
+        return 2;
+    }
+}
+int main(){
+    some_func_name(2);
+}
+
+
+
+//pseduo code:
+//function some_func_name( int some_parameter ):
+//  declare_some_varibale <- 1
+//  variable_need_to_input <- INPUT
+//  for i <- 0 to n step 1 do:
+//      declare_some_varibale ++
+//  while variable_need_to_input < n do:
+//      break
+//  if variable_need_to_input == n do:
+//      some_func_name(declare_some_varibale)
+//      return 2
+
+//BEGIN
+//some_func_name(2)
+//END
