@@ -125,10 +125,7 @@ int main(){
     Add_element(mylist, 3);
     Add_element(mylist, 6);
     displaylinked_list(mylist);
-    Insert_element(mylist, 10 , 0);
-    displaylinked_list(mylist);
-    Remove_a_value(mylist, 3);
-    displaylinked_list(mylist);
+
     remove_index(mylist, 0);
     displaylinked_list(mylist);
 }

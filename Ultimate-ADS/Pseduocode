@@ -34,6 +34,8 @@ int main(){
 //      some_func_name(declare_some_varibale)
 //      return 2
 
+
+//Main
 //BEGIN
 //some_func_name(2)
 //END
