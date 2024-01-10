@@ -39,6 +39,7 @@ void push(stack *s, int value){
     Node *temp = s->top;
     new_node->next = temp;
     s->top = new_node;
+    s->size++
     return;
 }
 
